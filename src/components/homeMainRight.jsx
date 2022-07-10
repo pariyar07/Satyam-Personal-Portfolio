@@ -42,7 +42,7 @@ const HomeMainRight = () => {
         </li>
         <li className="flex items-center gap-4 font-sans mb-2 transition-all hover:text-gray-matte">
           <a
-            href="https://satyampariyar.hashnode.dev/"
+            href="https://hashnode.com/@SatyamP"
             target="_blank"
             rel="noopener noreferrer"
           >
