@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      'laptop': '1024px',
+    },
     colors: {
       black: "#000",
       white: "#fff",
