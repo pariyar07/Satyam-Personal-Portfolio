@@ -6,7 +6,12 @@ const HomeMainRight = () => {
   return (
     <div className="flex flex-col items-center my-4 gap-4 laptop:items-end flex-grow">
       <div className="text-white flex items-center laptop:gap-4 laptop:text-xl laptop:font-mono laptop:my-16 transition-all hover:text-gray-matte">
-        <a href="https://github.com/">Download Resume</a>
+        <a
+          href={require("assets/Satyam_Pariyar_Resume.pdf")}
+          download="Satyam_Pariyar_Resume"
+        >
+          Download Resume
+        </a>
         <HiDocumentDownload />
       </div>
       <ul className="flex gap-4 laptop:gap-0 laptop:flex-col text-white mb-4 laptop:mb-8">
