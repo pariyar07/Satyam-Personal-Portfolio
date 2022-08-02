@@ -37,7 +37,7 @@ const HomeMainRight = () => {
         </li>
         <li className="flex items-center laptop:gap-4 font-sans laptop:mb-2 transition-all hover:text-gray-matte">
           <a
-            href="https://www.linkedin.com/in/satyam-pariyar-761901195/"
+            href="https://www.linkedin.com/in/satyam-pariyar/"
             target="_blank"
             rel="noopener noreferrer"
           >
