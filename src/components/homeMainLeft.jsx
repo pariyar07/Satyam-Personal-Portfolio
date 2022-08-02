@@ -74,7 +74,7 @@ const HomeMainLeft = () => {
             </li>
             <li className="flex items-center font-mono laptop:font-semibold transition-all hover:text-gray-matte">
               <VscDebugBreakpointLog />
-              <a href="https://github.com/pariyar07">Social Media</a>
+              <a href="https://spectrum-social.vercel.app/">Social Media</a>
             </li>
             <li className="font-mono laptop:font-semibold transition-all text-gray-matte hover:text-white">
               <a href="https://github.com/pariyar07">See More...</a>
