@@ -8,7 +8,7 @@ const HomeMainLeft = () => {
   return (
     <div className="text-white mb-6 mt-8 laptop:mb-16">
       <div className="flex flex-col gap-8 laptop:gap-12">
-        <div className="ml-5 laptop:ml-0">
+        <div className="ml-5 mb-20 laptop:mb-0 laptop:ml-0">
           <h1 className="text-xl laptop:text-4xl font-sans font-bold mb-5 laptop:mb-10">
             Weapons of Choice
           </h1>

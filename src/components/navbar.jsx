@@ -4,14 +4,14 @@ const Navbar = () => {
       <img
         src="/assets/SP-black.png"
         alt="logo"
-        className="w-12 laptop:w-16 h-auto"
+        className="w-14 laptop:w-16 h-auto"
       />
       <span className="text-gray-matte hidden laptop:block laptop:text-xl laptop:font-bold font-mono">
         Front-end Web Developer
       </span>
       <a
         href="mailto:pariyarsatyam12@gmail.com"
-        className="text-white laptop:font-semibold font-sans transition-all hover:text-gray-matte"
+        className="text-white font-medium text-xl laptop:text-2xl laptop:font-semibold font-sans transition-all hover:text-gray-matte"
       >
         Message Me
       </a>
