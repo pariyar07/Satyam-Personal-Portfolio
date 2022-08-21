@@ -24,7 +24,7 @@ const Homepage = () => {
             <img
               src="/assets/profile-pic.png"
               alt="Developer Pic"
-              className="w-36 mb-4 laptop:mb-0 laptop:w-80 h-auto laptop:px-4"
+              className="w-36 mb-4 laptop:mb-0 laptop:w-80 h-auto laptop:px-4 shake"
             />
             <h2 className="text-white text-sm mt-2 mb-20 laptop:mb-0 px-2 laptop:text-xl laptop:w-1/3 font-mono font-light text-center">
               I like to craft solid and scalable front-end products with great
