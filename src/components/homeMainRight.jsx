@@ -10,7 +10,7 @@ const HomeMainRight = () => {
     <div className="flex flex-col items-center my-4 gap-4 laptop:items-end flex-grow">
       <div className="text-white flex items-center laptop:gap-4 laptop:text-xl laptop:font-mono laptop:my-16 transition-all hover:text-gray-matte">
         <a
-          href={require("assets/Satyam_Pariyar_Resume.pdf")}
+          href={require("assets/Satyam's_Resume.pdf")}
           download="Satyam_Pariyar_Resume"
         >
           Download Resume

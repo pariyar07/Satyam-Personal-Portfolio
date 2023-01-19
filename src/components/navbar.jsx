@@ -6,7 +6,7 @@ const Navbar = () => {
         alt="logo"
         className="w-14 laptop:w-16 h-auto shake"
       />
-      <span className="text-gray-matte hidden laptop:block laptop:text-xl laptop:font-bold font-mono hover:animate-bounce">
+      <span className="text-gray-matte hidden laptop:block laptop:text-xl laptop:font-bold font-mono">
         Front-end Web Developer
       </span>
       <a

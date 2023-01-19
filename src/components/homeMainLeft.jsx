@@ -1,6 +1,12 @@
-import { SiJavascript, SiRedux, SiTailwindcss } from "react-icons/si";
+import {
+  SiJavascript,
+  SiRedux,
+  SiTailwindcss,
+  SiCypress,
+} from "react-icons/si";
 import { FaReact, FaBootstrap, FaGitAlt } from "react-icons/fa";
-import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
+import { AiFillHtml5 } from "react-icons/ai";
+import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoCss3 } from "react-icons/io";
 import { VscDebugBreakpointLog } from "react-icons/vsc";
 
@@ -35,6 +41,14 @@ const HomeMainLeft = () => {
               <p>React</p>
             </li>
             <li className={techStackListStyles}>
+              <TbBrandNextjs />
+              <p>NextJs</p>
+            </li>
+            <li className={techStackListStyles}>
+              <SiCypress />
+              <p>Cypress</p>
+            </li>
+            <li className={techStackListStyles}>
               <SiRedux />
               <p>Redux</p>
             </li>
@@ -45,10 +59,6 @@ const HomeMainLeft = () => {
             <li className={techStackListStyles}>
               <FaBootstrap />
               <p>Bootstrap</p>
-            </li>
-            <li className={techStackListStyles}>
-              <AiFillGithub />
-              <p>Github</p>
             </li>
             <li className={techStackListStyles}>
               <FaGitAlt />
